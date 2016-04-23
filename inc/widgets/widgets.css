@@ -1,0 +1,171 @@
+/* Misc for Cycle widgets */
+#testi-cycle .testi_item {
+	display:none;
+	}
+#testi-cycle .testi_item:first {
+	display:block;
+	}
+#testi-controls {
+	text-align:center;
+	overflow:hidden;
+	}
+	#testi-controls ul {
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		}
+		#testi-controls ul li {
+			padding:0;
+			margin:0 2px 0 0;
+			display:inline-block;
+			}
+		* + html #testi-controls ul li {
+			display:inline;
+			zoom:1;
+			}
+
+
+/* Recent Posts */
+.latestpost {
+	list-style-type:none;
+	margin:0 0 28px;
+	padding:0;
+	}
+	.latestpost li {
+		margin:0;
+		list-style-type:none;
+		padding:15px 0 20px;
+		}
+		.latestpost li:first-child {
+			padding-top:0;
+		}
+		.latestpost li .post-meta {
+			font-size:11px;
+			line-height:17px;
+			overflow:hidden;
+			margin-bottom:12px;
+		}
+			.latestpost li .post-meta a[rel="author"] {font-weight:bold; text-decoration:none; text-transform:capitalize;}
+			.latestpost li .post-meta a[rel="author"]:hover {text-decoration:underline;}
+			
+		.latestpost li h4 {
+			margin-bottom:13px;
+			}
+		.latestpost li .excerpt {
+			margin-bottom:23px;
+			}
+		.latestpost li .comments-link {
+			float:left;
+			margin-right:18px;
+			display:inline-block;
+			width:44px;
+			height:45px;
+			overflow:hidden;
+			font-size:22px;
+			line-height:38px;
+			text-align:center;
+			position:relative;
+			top:auto;
+			right:auto;
+		}
+		.latestpost .post-ratings {width:80px !important;}
+
+		
+.post-ratings {padding-top:10px; overflow:hidden;}
+.post-ratings img {margin:0 0 0 2px !important; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader() !important;}
+.post-ratings img:first-child {margin:0 !important;}
+
+/* Twitter widget */
+.twitter {
+	position:relative;
+}
+.twitter_update_list {
+	overflow:hidden;
+	margin-bottom:15px;
+	height:257px;
+	}
+.twitter ul li {
+	margin: 0;
+    padding: 18px 0 15px !important;
+	}
+	#footer .twitter ul li:first-child {
+		padding-top: 0 !important;
+	}
+	.twitter ul li .twitt-body {
+		padding:0 0 5px 0;
+		}
+	.twitter ul li .twitt-body a:hover {text-decoration:underline !important;}
+	.twitter ul li a.timesince {
+		display: inline-block;
+		font-size: 11px;
+		line-height: 14px;
+		padding-left: 25px;
+		}
+	
+.twitter .profileLink {
+	text-decoration:none;
+	font-weight:bold;
+}
+.twitter .profileLink:hover {text-decoration:underline;}
+.twitter  .preloader {
+	position:absolute;
+	top:50px;
+	left:0;
+	height: 24px;
+	line-height:24px;
+	padding-left: 30px;
+	background-position:0 50%;
+	background-repeat:no-repeat;
+	background-image:url(images/loading-twitter.png);
+}
+
+
+
+/* Flickr widget */
+.flickrImages {
+	overflow:hidden;
+	position:relative;
+}
+.flickrImages a {
+	float:left;
+	display:block;
+	width:75px;
+	height:75px;
+	background:#000;
+	margin:0 1px 1px 0;
+	}
+.flickrImages a img {
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+}
+.flickrImages a:hover img {
+	opacity:.5;
+}
+.flickrImages a.link {
+	display:inline;
+	float:none;
+	width:auto;
+	height:auto;
+	margin:0;
+	background:none;
+	}
+
+/* Banner widget */
+.banners-holder {
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	}
+	.banners-holder li {
+		list-style-type:none;
+		float:left;
+		margin:0 3px 3px 0;
+		padding:0;
+		}
+		.banners-holder li img {
+			vertical-align:top;
+			float:left;
+			width:200px;
+			height:auto;
+			}
